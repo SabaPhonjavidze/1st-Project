@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
 }
-.body{
+body{
   background: var(--Very-Light-blue, #ECF2FF);
+  
 }
 .Container {
   width: 23.5rem;
@@ -206,11 +207,17 @@ cursor: pointer;
 background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
 }
 @media (min-width:1440px) {
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
   .Container{
    flex-direction: row;
    width: 736px;
    height: 512px;
-   margin-top: 284px;
   }
   .Header {
     width:368px ;
