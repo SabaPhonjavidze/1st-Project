@@ -3,10 +3,16 @@
   margin: 0;
   padding: 0;
 }
+.body{
+  background: var(--Very-Light-blue, #ECF2FF);
+}
 .Container {
   width: 23.5rem;
   height: 50.6rem;
   margin:auto;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }
 .Header {
   width: 23.5rem;
@@ -179,3 +185,64 @@ margin-left: 12px;
 .svg4 > .n1 {
 margin-left: 143px;
 }
+.Button{
+  width: 315px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 128px;
+background: var(--Dark-Navy, #303B59);
+margin: 24px 30px 30px 30px;
+}
+.btn{
+  color: var(--White, #FFF);
+text-align: center;
+padding: 16.5px;
+font-family: "Hanken Grotesk", sans-serif;
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+.Button:hover{
+background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+}
+@media (min-width:1440px) {
+  .Container{
+   flex-direction: row;
+   width: 736px;
+   height: 512px;
+   margin-top: 284px;
+  }
+  .Header {
+    width:368px ;
+    height:512px ;
+    border-radius: 32px;
+  }
+  .h1 {
+    font-size: 24px;
+    padding: 38px;
+  }
+  .Icon{
+    width: 200px;
+    height: 200px;
+    margin-left: 84px;
+    align-self: center;
+  }
+  .s1 {
+    font-size:72px;
+    padding: 55px;
+  }
+  .t1 {
+    font-size:18px ;
+    margin-top:-60px;
+  }
+  .h2 {
+     font-size:32px ;
+    margin-top:-94px ;
+  }
+  .t2{
+    font-size: 18px;
+    margin-top: 14px;
+    margin: 14px 55px 54.5px 54.5px;
+  }
+  
+   }
