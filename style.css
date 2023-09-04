@@ -67,3 +67,14 @@ font-size: 1rem;
 font-weight: 500;
 margin-top: 0.5rem;
 }
+.Footer{
+  height: 453px;
+}
+.h3{
+  color: var(--Dark-Navy, #303B59);
+font-family:'Hanken Grotesk', sans-serif;
+font-size: 18px;
+font-weight: 700;
+margin-top: 24px;
+margin-left: 32px;
+}
